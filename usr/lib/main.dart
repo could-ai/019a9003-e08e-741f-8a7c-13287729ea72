@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Texas Hold\'em Poker',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-        scaffoldBackgroundColor: const Color(0xFF1A3A1A),
+        scaffoldBackgroundColor: Colors.blue[900],
         primaryColor: Colors.blueGrey[800],
       ),
       home: const PokerGameScreen(),
